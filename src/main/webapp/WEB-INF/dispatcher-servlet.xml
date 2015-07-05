@@ -11,6 +11,8 @@
 
     <context:component-scan base-package="com.springapp.mvc"/>
 
+    <mvc:resources mapping="/resources/**" location="/resources/theme/"/>
+
     <!--<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">-->
         <!--<property name="prefix" value="/WEB-INF/pages/"/>-->
         <!--<property name="suffix" value=".jsp"/>-->
