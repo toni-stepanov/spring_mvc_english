@@ -1,51 +1,62 @@
 package com.springapp.mvc;
 
-import org.springframework.beans.factory.annotation.Autowired;
+
+
+import com.springapp.mvc.hibernate.models.Book;
+import com.springapp.mvc.hibernate.models.Content;
+import com.springapp.mvc.hibernate.models.Music;
+import com.springapp.mvc.hibernate.services.MediaService;
+import org.apache.log4j.Logger;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
-import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.*;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
 
 @Controller
 public class MainController {
-
-    @Autowired
-    private UserRepository userRepository;
+    private static final Logger logger = Logger.getLogger(MainController.class);
 
     @RequestMapping(method = RequestMethod.GET, value="/")
     public String start(ModelMap model) {
+        ApplicationContext context = new ClassPathXmlApplicationContext("META-INF/beans.xml");
+        MediaService service = (MediaService) context.getBean("storageService");
+        service.save(getBook());
+        service.save(getTrack());
+        logger.info("Список всех элементов библиотеки мультимедиа:");
+        for (Content content : service.getAll()) {
+            logger.info(content);
+        }
         return "start";
     }
 
-//    @RequestMapping(value = "/api/users", method = RequestMethod.GET)
-//    public
-//    @ResponseBody
-//    String listUsersJson(ModelMap model) throws JSONException {
-//        JSONArray userArray = new JSONArray();
-//        for (User user : userRepository.findAll()) {
-//            JSONObject userJSON = new JSONObject();
-//            userJSON.put("id", user.getId());
-//            userJSON.put("firstName", user.getFirstName());
-//            userJSON.put("lastName", user.getLastName());
-//            userJSON.put("email", user.getEmail());
-//            userArray.put(userJSON);
-//        }
-//        return userArray.toString();
+
+    private static Content getBook() {
+        Book book = new Book();
+        book.setTitle("Над пропастью во ржи");
+        book.getAuthor().setFirstName("Джером");
+        book.getAuthor().setMiddleName("Дэвид");
+        book.getAuthor().setLastName("Сэлинджер");
+        book.setPageCount(500);
+        return book;
+    }
+
+    private static Content getTrack() {
+        Music track = new Music();
+        track.setTitle("Moby - Lift Me Up");
+        track.getAuthor().setFirstName("Ричард");
+        track.getAuthor().setMiddleName("Мэлвилл");
+        track.getAuthor().setLastName("Холл");
+        track.setBitRate(256);
+        return track;
+    }
+
+//    @RequestMapping(method = RequestMethod.GET, value="/")
+//    public String hiber_test(ModelMap model) {
+//        ApplicationContext context = new ClassPathXmlApplicationContext("META-INF/beans.xml");
+//        return "";
 //    }
-
-    @RequestMapping(value = "/add", method = RequestMethod.POST)
-    public String addUser(@ModelAttribute("user") User user, BindingResult result) {
-        userRepository.save(user);
-        return "redirect:/";
-    }
-
-    @RequestMapping("/delete/{userId}")
-    public String deleteUser(@PathVariable("userId") Long userId) {
-        userRepository.delete(userRepository.findOne(userId));
-        return "redirect:/";
-    }
-
 
 }
