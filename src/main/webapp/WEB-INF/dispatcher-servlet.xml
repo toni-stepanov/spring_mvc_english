@@ -16,7 +16,7 @@
 
     <context:component-scan base-package="com.springapp.mvc"/>
 
-    <mvc:resources mapping="/resources/**" location="/resources/theme/"/>
+    <!--<mvc:resources mapping="/resources/**" location="/resources/theme/"/>-->
 
     <bean id="viewResolver"
           class="org.springframework.web.servlet.view.UrlBasedViewResolver">
@@ -32,38 +32,45 @@
         </property>
     </bean>
 
-    <!--<tx:annotation-driven transaction-manager="transactionManager"/>-->
+    <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
+                destroy-method="close">
+        <property name="driverClassName" value="org.postgresql.Driver" />
+        <property name="url"
+                        value="jdbc:postgresql://localhost:5432/testdb" />
+        <property name="username" value="postgres" />
+        <property name="password" value="pwd" />
+    </bean>
 
-    <!--<bean id="dataSource"-->
-          <!--class="org.springframework.jdbc.datasource.DriverManagerDataSource">-->
-        <!--<property name="driverClassName" value="org.postgresql.Driver"/>-->
-        <!--<property name="url" value="jdbc:postgresql://localhost:5432/testdb"/>-->
-        <!--<property name="username" value="postgres"/>-->
-        <!--<property name="password" value="pwd"/>-->
-    <!--</bean>-->
+    <!-- Hibernate 4 SessionFactory Bean definition -->
+    <bean id="hibernate4AnnotatedSessionFactory"
+                class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+        <property name="dataSource" ref="dataSource" />
+        <property name="annotatedClasses">
+            <list>
+                <value>com.springapp.mvc.model.Person</value>
+            </list>
+        </property>
+        <property name="hibernateProperties">
+            <props>
+                <prop key="hibernate.dialect">org.hibernate.dialect.PostgreSQL9Dialect</prop>
+                <prop key="hibernate.show_sql">true</prop>
+                <prop key="hibernate.hbm2ddl.auto">create</prop>
+            </props>
+        </property>
+    </bean>
 
-    <!--<bean id="jpaDialect" class="org.springframework.orm.jpa.vendor.HibernateJpaDialect"/>-->
+    <bean id="personDAO" class="com.springapp.mvc.dao.PersonDAOImpl">
+        <property name="sessionFactory" ref="hibernate4AnnotatedSessionFactory" />
+    </bean>
+    <bean id="personService" class="com.springapp.mvc.service.PersonServiceImpl">
+        <property name="personDAO" ref="personDAO"></property>
+    </bean>
+    <context:component-scan base-package="com.springapp.mvc" />
 
-    <!--<bean id="jpaVendorAdapter"-->
-          <!--class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter">-->
-        <!--<property name="database" value="POSTGRESQL"/>-->
-        <!--<property name="databasePlatform" value="org.hibernate.dialect.PostgreSQL9Dialect"/>-->
-    <!--</bean>-->
+    <tx:annotation-driven transaction-manager="transactionManager"/>
 
-    <!--<bean class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean"-->
-          <!--id="entityManagerFactory">-->
-        <!--<property name="persistenceXmlLocation" value="classpath:META-INF/persistence.xml"/>-->
-        <!--<property name="persistenceUnitName" value="antdev.persistence.unit"/>-->
-        <!--<property name="dataSource" ref="dataSource"/>-->
-        <!--<property name="jpaVendorAdapter" ref="jpaVendorAdapter"/>-->
-        <!--<property name="jpaDialect" ref="jpaDialect"/>-->
-    <!--</bean>-->
-
-    <!--<bean id="transactionManager"-->
-          <!--class="org.springframework.orm.jpa.JpaTransactionManager">-->
-        <!--<property name="entityManagerFactory" ref="entityManagerFactory"/>-->
-        <!--<property name="dataSource" ref="dataSource"/>-->
-        <!--<property name="jpaDialect" ref="jpaDialect"/>-->
-    <!--</bean>-->
+    <bean id="transactionManager" class="org.springframework.orm.hibernate4.HibernateTransactionManager">
+        <property name="sessionFactory" ref="hibernate4AnnotatedSessionFactory" />
+    </bean>
 
 </beans>
