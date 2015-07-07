@@ -36,7 +36,7 @@ public class MainController {
     private static Content getBook() {
         Book book = new Book();
         book.setTitle("Над пропастью во ржи");
-//        book.getAuthor().setFirstName("Джером");
+        book.getAuthor().setFirstName("Джером");
         book.getAuthor().setMiddleName("Дэвид");
         book.getAuthor().setLastName("Сэлинджер");
         book.setPageCount(500);
@@ -53,10 +53,10 @@ public class MainController {
         return track;
     }
 
-//    @RequestMapping(method = RequestMethod.GET, value="/")
-//    public String hiber_test(ModelMap model) {
-//        ApplicationContext context = new ClassPathXmlApplicationContext("META-INF/beans.xml");
-//        return "";
-//    }
+    @RequestMapping(method = RequestMethod.GET, value="/")
+    public String hiber_test(ModelMap model) {
+        ApplicationContext context = new ClassPathXmlApplicationContext("META-INF/beans.xml");
+        return "";
+    }
 
 }
