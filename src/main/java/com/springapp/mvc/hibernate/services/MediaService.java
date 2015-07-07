@@ -1,6 +1,6 @@
 package com.springapp.mvc.hibernate.services;
 
-import developer.remarks.models.Content;
+import com.springapp.mvc.hibernate.models.Content;
 
 import java.util.List;
 

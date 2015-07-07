@@ -1,7 +1,7 @@
 package com.springapp.mvc.hibernate.services;
 
-import developer.remarks.dao.MediaDao;
-import developer.remarks.models.Content;
+import com.springapp.mvc.hibernate.dao.MediaDao;
+import com.springapp.mvc.hibernate.models.Content;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

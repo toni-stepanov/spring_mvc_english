@@ -15,10 +15,10 @@ public class Book extends Content {
         this.pageCount = pageCount;
     }
 
-    @Override
-    public String toString() {
-        return super.toStringHelper()
-                .add("pageCount", pageCount)
-                .toString();
-    }
+//    @Override
+//    public String toString() {
+//        return super.toStringHelper()
+//                .add("pageCount", pageCount)
+//                .toString();
+//    }
 }

@@ -1,6 +1,6 @@
 package com.springapp.mvc.hibernate.dao;
 
-import developer.remarks.models.Content;
+import com.springapp.mvc.hibernate.models.Content;
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityManager;

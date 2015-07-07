@@ -1,8 +1,9 @@
 package com.springapp.mvc.hibernate.models;
 
-import com.google.common.base.Objects;
+//import com.google.common.base.Objects;
 
 import javax.persistence.*;
+import java.util.Objects;
 
 @Entity
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
@@ -43,10 +44,10 @@ public abstract class Content {
         this.author = author;
     }
 
-    protected Objects.ToStringHelper toStringHelper() {
-        return Objects.toStringHelper(this)
-                .add("id", id)
-                .add("title", title)
-                .add("author", author);
-    }
+//    protected Objects.ToStringHelper toStringHelper() {
+//        return Objects.toStringHelper(this)
+//                .add("id", id)
+//                .add("title", title)
+//                .add("author", author);
+//    }
 }
