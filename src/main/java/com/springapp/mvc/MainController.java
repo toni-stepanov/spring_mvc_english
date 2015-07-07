@@ -53,10 +53,10 @@ public class MainController {
         return track;
     }
 
-    @RequestMapping(method = RequestMethod.GET, value="/")
-    public String hiber_test(ModelMap model) {
-        ApplicationContext context = new ClassPathXmlApplicationContext("META-INF/beans.xml");
-        return "";
-    }
+//    @RequestMapping(method = RequestMethod.GET, value="/")
+//    public String hiber_test(ModelMap model) {
+//        ApplicationContext context = new ClassPathXmlApplicationContext("META-INF/beans.xml");
+//        return "";
+//    }
 
 }
