@@ -4,9 +4,6 @@ import com.springapp.mvc.hibernate.models.Content;
 
 import java.util.List;
 
-/**
- * Сервис для работы с базой данных мультимедийной библиотеки
- */
 public interface MediaService {
 
     /**

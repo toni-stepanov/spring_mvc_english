@@ -15,10 +15,11 @@ public class Music extends Content {
         this.bitRate = bitRate;
     }
 
-//    @Override
-//    public String toString() {
+    @Override
+    public String toString() {
+        return "";
 //        return super.toStringHelper()
 //                .add("bitRate", bitRate)
 //                .toString();
-//    }
+    }
 }

@@ -25,7 +25,7 @@ public class MainController {
         MediaService service = (MediaService) context.getBean("storageService");
         service.save(getBook());
         service.save(getTrack());
-        logger.info("Список всех элементов библиотеки мультимедиа:");
+//        logger.info("Список всех элементов библиотеки мультимедиа:");
         for (Content content : service.getAll()) {
             logger.info(content);
         }
@@ -36,7 +36,7 @@ public class MainController {
     private static Content getBook() {
         Book book = new Book();
         book.setTitle("Над пропастью во ржи");
-        book.getAuthor().setFirstName("Джером");
+//        book.getAuthor().setFirstName("Джером");
         book.getAuthor().setMiddleName("Дэвид");
         book.getAuthor().setLastName("Сэлинджер");
         book.setPageCount(500);

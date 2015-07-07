@@ -2,25 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55e45223-0d9f-4cba-90f2-472dbcba0016" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="C:\code\test'\spring_mvc_tiles\src\main\java\models\Book.java" />
-      <change type="NEW" beforePath="" afterPath="C:\code\test'\spring_mvc_tiles\src\main\java\models\Content.java" />
-      <change type="NEW" beforePath="" afterPath="C:\code\test'\spring_mvc_tiles\src\main\java\com\springapp\mvc\dao\MediaDao.java" />
-      <change type="NEW" beforePath="" afterPath="C:\code\test'\spring_mvc_tiles\src\main\java\com\springapp\mvc\dao\MediaDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="C:\code\test'\spring_mvc_tiles\src\main\java\services\MediaService.java" />
-      <change type="NEW" beforePath="" afterPath="C:\code\test'\spring_mvc_tiles\src\main\java\services\MediaServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="C:\code\test'\spring_mvc_tiles\src\main\java\models\Music.java" />
-      <change type="NEW" beforePath="" afterPath="C:\code\test'\spring_mvc_tiles\src\main\java\models\UserInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/beans.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="DELETED" beforePath="C:\code\test'\spring_mvc_tiles\src\main\java\com\springapp\mvc\User.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\test'\spring_mvc_tiles\src\main\java\com\springapp\mvc\UserRepository.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\test'\spring_mvc_tiles\src\main\java\hibernate.cfg.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\code\test'\spring_mvc_tiles\src\main\java\com\springapp\mvc\Book.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\code\test'\spring_mvc_tiles\src\main\java\com\springapp\mvc\Content.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\code\test'\spring_mvc_tiles\src\main\java\com\springapp\mvc\MediaDao.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\code\test'\spring_mvc_tiles\src\main\java\com\springapp\mvc\Music.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\code\test'\spring_mvc_tiles\src\main\java\com\springapp\mvc\UserInfo.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/MainController.java" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/MainController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring_mvc_tiles.iml" afterPath="$PROJECT_DIR$/spring_mvc_tiles.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/hibernate/dao/MediaDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/hibernate/dao/MediaDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/hibernate/services/MediaService.java" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/hibernate/services/MediaService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/hibernate/models/Music.java" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/hibernate/models/Music.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="spring_mvc_tiles.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -87,7 +78,7 @@
       <file leaf-file-name="MainController.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="26" selection-start="683" selection-end="683" vertical-scroll-proportion="0.17948718" vertical-offset="260" max-vertical-offset="1139">
+            <state line="39" column="34" selection-start="1485" selection-end="1485" vertical-scroll-proportion="0.6077348" vertical-offset="443" max-vertical-offset="1139">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,10 +89,8 @@
       <file leaf-file-name="MediaServiceImpl.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/hibernate/services/MediaServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="13" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="11" column="13" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -109,10 +98,8 @@
       <file leaf-file-name="MediaDao.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/hibernate/dao/MediaDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="17" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="10" column="0" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -120,10 +107,8 @@
       <file leaf-file-name="MediaDaoImpl.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/hibernate/dao/MediaDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="28" selection-start="364" selection-end="366" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="13" column="28" selection-start="364" selection-end="366" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -131,7 +116,7 @@
       <file leaf-file-name="dispatcher-servlet.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="75" selection-start="1747" selection-end="1747" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1258">
+            <state line="34" column="75" selection-start="1747" selection-end="1747" vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="1258">
               <folding />
             </state>
           </provider>
@@ -140,13 +125,8 @@
       <file leaf-file-name="Music.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/hibernate/models/Music.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-              <folding>
-                <element signature="e#201#202#0" expanded="false" />
-                <element signature="e#231#232#0" expanded="false" />
-                <element signature="e#274#275#0" expanded="false" />
-                <element signature="e#312#313#0" expanded="false" />
-              </folding>
+            <state line="18" column="18" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="459">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -154,21 +134,8 @@
       <file leaf-file-name="Content.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/hibernate/models/Content.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="14" selection-start="934" selection-end="1145" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
-              <folding>
-                <element signature="e#549#550#0" expanded="false" />
-                <element signature="e#574#575#0" expanded="false" />
-                <element signature="e#607#608#0" expanded="false" />
-                <element signature="e#635#636#0" expanded="false" />
-                <element signature="e#667#668#0" expanded="false" />
-                <element signature="e#695#696#0" expanded="false" />
-                <element signature="e#737#738#0" expanded="false" />
-                <element signature="e#771#772#0" expanded="false" />
-                <element signature="e#806#807#0" expanded="false" />
-                <element signature="e#835#836#0" expanded="false" />
-                <element signature="e#881#882#0" expanded="false" />
-                <element signature="e#917#918#0" expanded="false" />
-              </folding>
+            <state line="46" column="14" selection-start="934" selection-end="1145" vertical-scroll-proportion="0.0" vertical-offset="782" max-vertical-offset="1003">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -176,13 +143,8 @@
       <file leaf-file-name="Book.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/hibernate/models/Book.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="11" selection-start="317" selection-end="480" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-              <folding>
-                <element signature="e#182#183#0" expanded="false" />
-                <element signature="e#214#215#0" expanded="false" />
-                <element signature="e#261#262#0" expanded="false" />
-                <element signature="e#303#304#0" expanded="false" />
-              </folding>
+            <state line="17" column="11" selection-start="317" selection-end="480" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="510">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -190,10 +152,8 @@
       <file leaf-file-name="MediaService.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/hibernate/services/MediaService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="3" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="5" column="0" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -201,7 +161,7 @@
       <file leaf-file-name="beans.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/beans.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="58" selection-start="1821" selection-end="1821" vertical-scroll-proportion="-22.44" vertical-offset="0" max-vertical-offset="884">
+            <state line="33" column="58" selection-start="1821" selection-end="1821" vertical-scroll-proportion="-10.76" vertical-offset="292" max-vertical-offset="884">
               <folding />
             </state>
           </provider>
@@ -237,14 +197,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/services/MediaService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/services/MediaServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/hibernate/services/MediaServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/hibernate/services/MediaService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/hibernate/models/Music.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/hibernate/models/Book.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/hibernate/dao/MediaDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/hibernate/dao/MediaDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/hibernate/models/Content.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/MainController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/hibernate/services/MediaService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/hibernate/models/Music.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/hibernate/dao/MediaDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/MainController.java" />
       </list>
     </option>
   </component>
@@ -300,7 +260,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="2" />
+    <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -316,6 +276,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -530,7 +491,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -894,6 +854,7 @@
       <updated>1436187523033</updated>
       <workItem from="1436187524635" duration="1077000" />
       <workItem from="1436188626126" duration="6566000" />
+      <workItem from="1436254586903" duration="1723000" />
     </task>
     <task id="LOCAL-00001" summary="next &#10;add hibernate">
       <created>1436194121916</created>
@@ -903,42 +864,42 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7643000" />
+    <option name="totallyTimeSpent" value="9366000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.55831534" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5007825" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.57019436" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973376" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32829374" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14376996" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14376996" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973376" sideWeight="0.49921754" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32829374" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -968,6 +929,78 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="26" selection-start="683" selection-end="683" vertical-scroll-proportion="0.0" vertical-offset="260" max-vertical-offset="1139">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/hibernate/services/MediaServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/hibernate/dao/MediaDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="17" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/hibernate/dao/MediaDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="28" selection-start="364" selection-end="366" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="527">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="75" selection-start="1747" selection-end="1747" vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="1258">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/hibernate/models/Music.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/hibernate/models/Content.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="14" selection-start="934" selection-end="1145" vertical-scroll-proportion="0.0" vertical-offset="782" max-vertical-offset="1003">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/hibernate/models/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="11" selection-start="317" selection-end="480" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/hibernate/services/MediaService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="3" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="58" selection-start="1821" selection-end="1821" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="884">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="13" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="391">
           <folding>
             <element signature="imports" expanded="true" />
@@ -977,16 +1010,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/springapp/mvc/AppTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="13" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="544">
-          <folding />
-        </state>
+        <state line="20" column="13" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="544" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -998,9 +1027,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/footer.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/defs/general.xml">
@@ -1012,9 +1039,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/footer.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/defs/general.xml">
@@ -1026,16 +1051,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/springapp/mvc/AppTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="13" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
-          <folding />
-        </state>
+        <state line="20" column="13" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
@@ -1062,45 +1083,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/hibernate/models/Book.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="11" selection-start="317" selection-end="480" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <folding>
-            <element signature="e#182#183#0" expanded="false" />
-            <element signature="e#214#215#0" expanded="false" />
-            <element signature="e#261#262#0" expanded="false" />
-            <element signature="e#303#304#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/hibernate/dao/MediaDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="17" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/hibernate/services/MediaServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/hibernate/services/MediaService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="3" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="58" selection-start="1821" selection-end="1821" vertical-scroll-proportion="-22.44" vertical-offset="0" max-vertical-offset="884">
           <folding />
         </state>
       </provider>
@@ -1112,15 +1094,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/hibernate/dao/MediaDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="28" selection-start="364" selection-end="366" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="75" selection-start="1747" selection-end="1747" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1258">
@@ -1128,41 +1101,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/hibernate/models/Music.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <folding>
-            <element signature="e#201#202#0" expanded="false" />
-            <element signature="e#231#232#0" expanded="false" />
-            <element signature="e#274#275#0" expanded="false" />
-            <element signature="e#312#313#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/hibernate/models/Content.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="46" column="14" selection-start="934" selection-end="1145" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
-          <folding>
-            <element signature="e#549#550#0" expanded="false" />
-            <element signature="e#574#575#0" expanded="false" />
-            <element signature="e#607#608#0" expanded="false" />
-            <element signature="e#635#636#0" expanded="false" />
-            <element signature="e#667#668#0" expanded="false" />
-            <element signature="e#695#696#0" expanded="false" />
-            <element signature="e#737#738#0" expanded="false" />
-            <element signature="e#771#772#0" expanded="false" />
-            <element signature="e#806#807#0" expanded="false" />
-            <element signature="e#835#836#0" expanded="false" />
-            <element signature="e#881#882#0" expanded="false" />
-            <element signature="e#917#918#0" expanded="false" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="58" selection-start="1821" selection-end="1821" vertical-scroll-proportion="-10.76" vertical-offset="292" max-vertical-offset="884">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/hibernate/services/MediaServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/hibernate/dao/MediaDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="28" selection-start="364" selection-end="366" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/hibernate/services/MediaService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/hibernate/models/Music.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="18" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/hibernate/dao/MediaDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="26" selection-start="683" selection-end="683" vertical-scroll-proportion="0.17948718" vertical-offset="260" max-vertical-offset="1139">
+        <state line="39" column="34" selection-start="1485" selection-end="1485" vertical-scroll-proportion="0.6077348" vertical-offset="443" max-vertical-offset="1139">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
