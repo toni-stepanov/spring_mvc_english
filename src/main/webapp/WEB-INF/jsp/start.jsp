@@ -12,9 +12,9 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <spring:url value="/resources/css/bootstrap.min.css" var="bootstrap" />
     <spring:url value="/resources/js/bootstrap.min.js" var="bootstrap_js" />
-    <spring:url value="/resources/images/slider/1.jpg" var="slider1" />
-    <spring:url value="/resources/images/slider/2.jpg" var="slider2" />
-    <spring:url value="/resources/images/slider/3.jpg" var="slider3" />
+    <spring:url value="/resources/slider/1.jpg" var="slider1" />
+    <spring:url value="/resources/slider/2.jpg" var="slider2" />
+    <spring:url value="/resources/slider/3.jpg" var="slider3" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
