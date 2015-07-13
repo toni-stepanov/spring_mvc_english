@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" build-on-make="true" name="spring_mvc_tiles:war exploded">
-    <output-path>$PROJECT_DIR$/target/java-blog-aggregator-0.0.1-SNAPSHOT</output-path>
+    <output-path>$PROJECT_DIR$/target/spring-mvc-0.0.2-SNAPSHOT</output-path>
     <root id="root">
       <element id="javaee-facet-resources" facet="spring_mvc_tiles/web/Web" />
       <element id="directory" name="WEB-INF">
