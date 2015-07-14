@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8"%>
 <%@ taglib uri="http://tiles.apache.org/tags-tiles" prefix="tiles"%>
-
+<%@ page isELIgnored="false" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -23,33 +23,12 @@
     <script src="${bootstrap_js}"></script>
     <!-- Custom styles for this template -->
     <link href="${signin}" rel="stylesheet">
-    <style>
-        .error_pwd{
-            text-align: center;
-            color: red;
-        }
-    </style>
     <title><tiles:getAsString name="title" /></title>
 </head>
 <body>
 
 <tiles:insertAttribute name="header" />
-<div class="container">
-
-    <form class="form-signin" method="post">
-        <h2 class="form-signin-heading">Please sign in</h2>
-        <label for="inputEmail" class="sr-only">Email address</label>
-        <input type="email" id="inputEmail" name="mail" class="form-control" placeholder="Email address" required autofocus>
-        <label for="inputPassword" class="sr-only">Password</label>
-        <input type="password" id="inputPassword" name="pwd" class="form-control" placeholder="Password" required>
-        <button class="btn btn-lg btn-primary btn-block btn-custom" type="submit">Sign in</button>
-    </form>
-
-</div> <!-- /container -->
-<p class="error_pwd">
-    <c:out value="${result}"/>
-</p>
-</br>
+hi, ${result2}
 <tiles:insertAttribute name="footer"/>
 </body>
 </html>

@@ -41,11 +41,17 @@ public class LoginController {
     }
 
     @RequestMapping(value="/login", method = RequestMethod.POST)
-    public String loginCheck(Model model, @RequestParam String mail) {
+    public String loginCheck(Model model, @RequestParam String mail, @RequestParam String pwd) {
         logger.info("loginCheck mail = " + mail);
+        logger.info("loginCheck pwd = " + pwd);
         Person person = personService.findByMail(mail);
         logger.info("person = " + person);
-        return "start";
+        if(person.getPassword().equals(pwd)){
+            model.addAttribute("person", person);
+            return "start";
+        }
+        model.addAttribute("result", "Incorrect password");
+        return "login";
     }
 
 }
