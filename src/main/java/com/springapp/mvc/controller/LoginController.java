@@ -6,11 +6,14 @@ import com.springapp.mvc.service.PersonService;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import javax.validation.Valid;
 import java.util.List;
 
 @Controller
@@ -21,23 +24,36 @@ public class LoginController {
     @Autowired
     PersonService personService;
 
-    @RequestMapping("/test")
-    public String detail(Model model) {
-        List<Person> persons = personService.findAll();
-        for (Person person : persons) {
-            logger.info(person.toString());
-        }
-        return "start";
-    }
-
     @RequestMapping("/")
-    public String detail2(Model model) {
+    public String start(Model model) {
+        logger.info("start");
         return "start";
     }
 
     @RequestMapping("/login")
     public String login(Model model) {
+        logger.info("login");
         return "login";
+    }
+
+    @RequestMapping("/registration")
+    public String register(Model model) {
+        logger.info("registration");
+        return "registration";
+    }
+
+    @ModelAttribute("person")
+    public Person create(){
+        logger.info("create person");
+        return new Person();
+    }
+
+    @RequestMapping(value = "registration", method = RequestMethod.POST)
+    public String doRegister(@Valid @ModelAttribute("person") Person person, Model model) {
+        personService.save(person);
+        model.addAttribute("person", person);
+        logger.info("do register mail = " + person.getMail());
+        return "start";
     }
 
     @RequestMapping(value="/login", method = RequestMethod.POST)

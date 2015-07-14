@@ -11,7 +11,7 @@
 
     <spring:url value="/resources/css/bootstrap.min.css" var="bootstrap" />
     <spring:url value="/resources/js/bootstrap.min.js" var="bootstrap_js" />
-    <spring:url value="/resources/css/signin.css" var="signin" />
+    <spring:url value="/resources/css/submit.css" var="submit" />
 
     <!-- Bootstrap -->
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -22,7 +22,7 @@
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="${bootstrap_js}"></script>
     <!-- Custom styles for this template -->
-    <link href="${signin}" rel="stylesheet">
+    <link href="${submit}" rel="stylesheet">
     <style>
         .error_pwd{
             text-align: center;

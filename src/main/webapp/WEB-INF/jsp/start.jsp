@@ -32,7 +32,7 @@
 <body>
 
 <tiles:insertAttribute name="header" />
-<c:if test="${person != null}" >
+<c:if test="${person != null && person.mail != null}" >
     <p class="hello">hi, <c:out value="${person.mail}" /></p>
 </c:if>
 

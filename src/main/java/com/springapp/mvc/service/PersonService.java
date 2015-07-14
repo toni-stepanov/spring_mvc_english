@@ -21,4 +21,8 @@ public class PersonService {
         return personRepository.findByMail(mail);
     }
 
+    public void save(Person person) {
+        personRepository.save(person);
+    }
+
 }

@@ -16,8 +16,8 @@
         <put-attribute name="title" value="Login" />
     </definition>
 
-    <definition name="test" template="/WEB-INF/jsp/test.jsp" extends="base">
-        <put-attribute name="title" value="test" />
+    <definition name="registration" template="/WEB-INF/jsp/registration.jsp" extends="base">
+        <put-attribute name="title" value="Register" />
     </definition>
 
 </tiles-definitions>
