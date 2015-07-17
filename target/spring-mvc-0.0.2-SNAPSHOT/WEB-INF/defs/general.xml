@@ -3,21 +3,34 @@
        "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
 <tiles-definitions>
-	<definition name="base">
-		<put-attribute name="footer" value="/WEB-INF/layout/footer.jsp" />
-		<put-attribute name="header" value="/WEB-INF/layout/header.jsp" />
-	</definition>
 
-    <definition name="start" template="/WEB-INF/jsp/start.jsp" extends="base">
+    <definition name="start" extends="base">
         <put-attribute name="title" value="Start" />
+        <put-attribute name="current_page" value="start"/>
+        <put-attribute name="body" value="/WEB-INF/jsp/start.jsp"/>
     </definition>
 
-    <definition name="login" template="/WEB-INF/jsp/login.jsp" extends="base">
+    <definition name="login" extends="base">
         <put-attribute name="title" value="Login" />
+        <put-attribute name="current_page" value="login"/>
+        <put-attribute name="body" value="/WEB-INF/jsp/login.jsp"/>
     </definition>
 
-    <definition name="registration" template="/WEB-INF/jsp/registration.jsp" extends="base">
+    <definition name="registration" extends="base">
         <put-attribute name="title" value="Register" />
+        <put-attribute name="current_page" value="registration"/>
+        <put-attribute name="body" value="/WEB-INF/jsp/registration.jsp"/>
     </definition>
+
+    <definition name="users"  extends="base">
+        <put-attribute name="title" value="Users" />
+        <put-attribute name="current_page" value="users"/>
+        <put-attribute name="body" value="/WEB-INF/jsp/users.jsp"/>
+    </definition>
+
+    <definition name="base" template="/WEB-INF/layout/base.jsp">
+        <put-attribute name="footer" value="/WEB-INF/layout/footer.jsp" />
+    </definition>
+
 
 </tiles-definitions>

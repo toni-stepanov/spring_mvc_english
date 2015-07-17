@@ -22,12 +22,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="spring_mvc_tiles" />
+        <module name="spring-mvc" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="spring_mvc_tiles" target="1.6" />
-    </bytecodeTargetLevel>
   </component>
 </project>
 

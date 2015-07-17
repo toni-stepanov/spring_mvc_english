@@ -1,40 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8"%>
-<%@ taglib uri="http://tiles.apache.org/tags-tiles" prefix="tiles"%>
-<%@ include file="../layout/taglib.jsp"%>
-<!DOCTYPE html>
-<html>
-<head>
 
-    <%@ taglib uri="http://www.springframework.org/tags" prefix="spring" %>
-
-    <spring:url value="/resources/css/bootstrap.min.css" var="bootstrap" />
-    <spring:url value="/resources/js/bootstrap.min.js" var="bootstrap_js" />
-    <spring:url value="/resources/slider/1.jpg" var="slider1" />
-    <spring:url value="/resources/slider/2.jpg" var="slider2" />
-    <spring:url value="/resources/slider/3.jpg" var="slider3" />
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap -->
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <link href="${bootstrap}" rel="stylesheet" media="screen">
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="${bootstrap_js}"></script>
-    <title><tiles:getAsString name="title" /></title>
-    <style>
-        .hello{
-            text-align: center;
-            font-size: 20px;
-            color: green;
-        }
-    </style>
-</head>
-<body>
-
-<tiles:insertAttribute name="header" />
-<c:if test="${person != null && person.mail != null}" >
-    <p class="hello">hi, <c:out value="${person.mail}" /></p>
-</c:if>
+<%@ include file="../layout/taglib.jsp" %>
 
 <%--<div class="container">--%>
     <%--<div id="carousel-generic" class="carousel slide" data-ride="carousel" style="width: 600px; margin: 0 auto">--%>
@@ -82,10 +49,13 @@
     <%--</div>--%>
 <%--</div>--%>
 </br></br></br>
+
 <div align="center">
-    <p><a class="btn btn-lg btn-primary" href="#" role="button" style="width:160px; color:#ffffff; background:black">Start</a></p>
+    <security:authorize access="!isAuthenticated()">
+        <p><a class="btn btn-lg btn-primary disabled" href="#" role="button" style="width:160px; color:#ffffff; background:black">Start</a></p>
+    </security:authorize>
+    <security:authorize access="isAuthenticated()">
+        <p><a class="btn btn-lg btn-primary" href="#" role="button" style="width:160px; color:#ffffff; background:black">Start</a></p>
+    </security:authorize>
 </div>
 </br>
-<tiles:insertAttribute name="footer"/>
-</body>
-</html>

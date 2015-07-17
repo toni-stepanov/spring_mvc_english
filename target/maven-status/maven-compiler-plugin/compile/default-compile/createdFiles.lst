@@ -1,0 +1,10 @@
+com\springapp\mvc\controller\LoginController.class
+com\springapp\mvc\repository\RoleRepository.class
+com\springapp\mvc\controller\RegisterController.class
+com\springapp\mvc\entity\Role.class
+com\springapp\mvc\repository\UserRepository.class
+com\springapp\mvc\entity\User.class
+com\springapp\mvc\controller\StartController.class
+com\springapp\mvc\service\InitDbService.class
+com\springapp\mvc\service\UserService.class
+com\springapp\mvc\controller\UserListController.class
