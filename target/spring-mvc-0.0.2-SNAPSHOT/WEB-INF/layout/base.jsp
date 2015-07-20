@@ -19,9 +19,11 @@
     <spring:url value="/resources/slider/1.jpg" var="slider1" />
     <spring:url value="/resources/slider/2.jpg" var="slider2" />
     <spring:url value="/resources/slider/3.jpg" var="slider3" />
+    <spring:url value="/resources/css/sidebar.css" var="sidebar" />
 
     <link href="${bootstrap}" rel="stylesheet" media="screen">
     <link href="${submit}" rel="stylesheet" media="screen">
+    <link href="${sidebar}" rel="stylesheet" media="screen">
 
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="${bootstrap_js}"></script>
@@ -30,6 +32,7 @@
 </head>
 <body>
 <tilesx:useAttribute name="current_page"/>
+<br>
     <div class="navbar-wrapper">
         <div class="container">
 

@@ -34,5 +34,9 @@ public class RegisterController {
         return "login";
     }
 
+    @RequestMapping(value = "registration")
+    public String registration(){
+        return "registration";
+    }
 
 }

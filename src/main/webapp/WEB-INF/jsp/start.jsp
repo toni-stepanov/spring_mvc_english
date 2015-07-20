@@ -55,7 +55,9 @@
         <p><a class="btn btn-lg btn-primary disabled" href="#" role="button" style="width:160px; color:#ffffff; background:black">Start</a></p>
     </security:authorize>
     <security:authorize access="isAuthenticated()">
-        <p><a class="btn btn-lg btn-primary" href="#" role="button" style="width:160px; color:#ffffff; background:black">Start</a></p>
+        <form action="main">
+            <p><a class="btn btn-lg btn-primary" style="width:160px; color:#ffffff; background:black" type="submit" href="main">Start</a></p>
+        </form>
     </security:authorize>
 </div>
 </br>

@@ -10,9 +10,8 @@
         </td>
         <td>
             <a>
-                remove
+                remove<br>
             </a>
         </td>
     </tr>
 </c:forEach>
-

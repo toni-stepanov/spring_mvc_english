@@ -1,5 +1,6 @@
 com\springapp\mvc\controller\LoginController.class
 com\springapp\mvc\repository\RoleRepository.class
+com\springapp\mvc\controller\MainController.class
 com\springapp\mvc\controller\RegisterController.class
 com\springapp\mvc\entity\Role.class
 com\springapp\mvc\repository\UserRepository.class

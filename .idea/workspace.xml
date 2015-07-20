@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55e45223-0d9f-4cba-90f2-472dbcba0016" name="Default" comment="next&#10;" />
+    <list default="true" id="55e45223-0d9f-4cba-90f2-472dbcba0016" name="Default" comment="next&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/MainController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/theme/css/sidebar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/RegisterController.java" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/RegisterController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/base.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/base.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/defs/general.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/defs/general.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/start.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/start.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/theme/css/submit.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/theme/css/submit.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/users.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/users.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="spring_mvc_tiles.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -64,113 +76,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="User.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/entity/User.java">
+      <file leaf-file-name="sidebar.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/theme/css/sidebar.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0" vertical-offset="112" max-vertical-offset="986">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#353#354#0" expanded="true" />
-                <element signature="e#378#379#0" expanded="true" />
-                <element signature="e#415#416#0" expanded="true" />
-                <element signature="e#443#444#0" expanded="true" />
-                <element signature="e#905#906#0" expanded="true" />
-                <element signature="e#935#936#0" expanded="true" />
-                <element signature="e#982#983#0" expanded="true" />
-                <element signature="e#1020#1021#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="taglib.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/taglib.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="221">
+            <state line="47" column="33" selection-start="925" selection-end="925" vertical-scroll-proportion="0.0" vertical-offset="665" max-vertical-offset="1411">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserRepository.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/repository/UserRepository.java">
+      <file leaf-file-name="main.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="33" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="33" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-              <folding>
-                <element signature="e#866#872#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegisterController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/RegisterController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="0" selection-start="1146" selection-end="1146" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserListController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/UserListController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="5" selection-start="787" selection-end="787" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+            <state line="18" column="38" selection-start="486" selection-end="486" vertical-scroll-proportion="0.31782946" vertical-offset="142" max-vertical-offset="850">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="applicationContext.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="986" selection-end="986" vertical-scroll-proportion="-14.28" vertical-offset="0" max-vertical-offset="493">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="general.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/defs/general.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="51" selection-start="772" selection-end="772" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StartController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/StartController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InitDbService.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/InitDbService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="34" selection-start="1079" selection-end="1079" vertical-scroll-proportion="1.5653409" vertical-offset="112" max-vertical-offset="986">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1242#1248#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -188,12 +107,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/Person.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/PersonDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/dao/PersonDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/PersonServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/MainController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/MainController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/Controller.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/database-prod.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/Controller2.java" />
@@ -206,7 +121,6 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/UserValidator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/PersonService.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/theme/css/submit.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/theme/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/repository/PersonRepository.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
@@ -219,10 +133,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/header.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/users.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/taglib.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/defs/general.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/registration.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/RoleService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/repository/RoleRepository.java" />
@@ -231,14 +143,21 @@
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/entity/User.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/security.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/repository/UserRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/base.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/StartController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/RegisterController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/userListController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/UserListController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/users.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/RegisterController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/MainController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/start.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/theme/css/main.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/defs/general.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/theme/css/submit.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/base.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/theme/css/sidebar.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp" />
       </list>
     </option>
   </component>
@@ -438,6 +357,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -635,6 +555,74 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring_mvc_english" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring_mvc_english" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -761,7 +749,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -785,17 +772,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.springapp.mvc.controller" />
       <recent name="com.springapp.mvc.service" />
       <recent name="com.springapp.mvc.repository" />
       <recent name="com.springapp.mvc.entity" />
       <recent name="com.springapp.mvc.model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\code\test'\git_spring_project\spring_mvc_english\src\main\webapp\resources\theme\css" />
+      <recent name="C:\code\test'\git_spring_project\spring_mvc_english\src\main\webapp\WEB-INF\jsp" />
       <recent name="C:\code\test'\git_spring_project\spring_mvc_english\src\main\java\com\springapp\mvc\repository" />
       <recent name="C:\code\test'\git_spring_project\spring_mvc_english\src\main\java\com\springapp\mvc\entity" />
-      <recent name="C:\code\test'\git_spring_project\spring_mvc_english\src\main\webapp\WEB-INF\jsp" />
       <recent name="C:\code\test'\spring_mvc_tiles\src\main\webapp\resources\theme\css" />
-      <recent name="C:\code\test'\spring_mvc_tiles\src\main\webapp\WEB-INF" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\code\test'\spring_mvc_tiles\src\main\webapp\WEB-INF" />
@@ -1172,10 +1160,10 @@
       </method>
     </configuration>
     <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Application.Program" />
-      <item index="1" class="java.lang.String" itemvalue="Application.MainController" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.AppTests" />
-      <item index="3" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 8.0.24" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.AppTests" />
+      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 8.0.24" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Program" />
+      <item index="3" class="java.lang.String" itemvalue="Application.MainController" />
     </list>
     <recent_temporary>
       <list size="2">
@@ -1189,6 +1177,24 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <configuration useDefault="false">C:\Users\astepanov\.subversion</configuration>
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="55e45223-0d9f-4cba-90f2-472dbcba0016" name="Default" comment="" />
@@ -1205,7 +1211,9 @@
       <workItem from="1437031776844" duration="14281000" />
       <workItem from="1437056925327" duration="2541000" />
       <workItem from="1437118363345" duration="1257000" />
-      <workItem from="1437119738867" duration="7342000" />
+      <workItem from="1437119738867" duration="9458000" />
+      <workItem from="1437376500235" duration="4128000" />
+      <workItem from="1437381263881" duration="4544000" />
     </task>
     <task id="LOCAL-00001" summary="next &#10;add hibernate">
       <created>1436194121916</created>
@@ -1223,7 +1231,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97570000" />
+    <option name="totallyTimeSpent" value="108358000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1247,33 +1255,33 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31" sideWeight="0.4169329" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15761448" sideWeight="0.49888888" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3311111" sideWeight="0.5830671" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.58" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.58" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5007825" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31" sideWeight="0.4169329" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32777777" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19808307" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0857295" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.08146965" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14057508" sideWeight="0.49888888" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36888888" sideWeight="0.5830671" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1308,30 +1316,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="21" selection-start="1691" selection-end="1691" vertical-scroll-proportion="0.0" vertical-offset="833" max-vertical-offset="952">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/users.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="9" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="408">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/security.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="75" selection-start="940" selection-end="940" vertical-scroll-proportion="0.0" vertical-offset="151" max-vertical-offset="748">
-          <folding>
-            <marker date="1437124916253" expanded="true" signature="-1:-1" placeholder="select app_u..app_user..." />
-            <marker date="1437124916253" expanded="true" signature="-1:-1" placeholder="select mail,..app_user..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/registration.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="7" selection-start="1926" selection-end="1926" vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="833">
@@ -1449,13 +1433,6 @@
         <state line="5" column="23" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/theme/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="20" selection-start="32232" selection-end="32232" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar!/javax/persistence/GeneratedValue.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="18" selection-start="355" selection-end="355" vertical-scroll-proportion="0.1401649" vertical-offset="0" max-vertical-offset="849" />
@@ -1475,23 +1452,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/footer.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="848">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="21" selection-start="1691" selection-end="1691" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/theme/css/submit.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="777" selection-end="777" vertical-scroll-proportion="1.1776557" vertical-offset="3" max-vertical-offset="782" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.7.1.RELEASE/spring-data-commons-1.7.1.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
@@ -1503,10 +1468,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="5" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
           <folding>
-            <element signature="e#597#598#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#652#653#0" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="false" />
+            <element signature="e#615#616#0" expanded="false" />
+            <element signature="e#652#653#0" expanded="false" />
+            <element signature="e#675#676#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1515,7 +1480,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="6" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1534,82 +1499,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/users.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="9" selection-start="356" selection-end="356" vertical-scroll-proportion="0.30070755" vertical-offset="0" max-vertical-offset="848">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/repository/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="33" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/security.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="38" selection-start="659" selection-end="659" vertical-scroll-proportion="0.22025913" vertical-offset="0" max-vertical-offset="849">
-          <folding>
-            <marker date="1437124916253" expanded="true" signature="-1:-1" placeholder="select app_u..app_user..." />
-            <marker date="1437124916253" expanded="true" signature="-1:-1" placeholder="select mail,..app_user..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0" vertical-offset="257" max-vertical-offset="986">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
-            <element signature="e#905#906#0" expanded="true" />
-            <element signature="e#935#936#0" expanded="true" />
-            <element signature="e#982#983#0" expanded="true" />
-            <element signature="e#1020#1021#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="33" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-          <folding>
-            <element signature="e#866#872#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/registration.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="48" selection-start="189" selection-end="189" vertical-scroll-proportion="0.15454546" vertical-offset="0" max-vertical-offset="550">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/taglib.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="221">
+        <state line="2" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="221">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/base.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="28" selection-start="2397" selection-end="2445" vertical-scroll-proportion="0.7381818" vertical-offset="427" max-vertical-offset="1343">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/start.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="43" selection-start="2704" selection-end="2704" vertical-scroll-proportion="0.8195755" vertical-offset="274" max-vertical-offset="1122">
+        <state line="19" column="0" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0" vertical-offset="257" max-vertical-offset="986">
           <folding />
         </state>
       </provider>
@@ -1621,59 +1534,129 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/RegisterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="1146" selection-end="1146" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/StartController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="18" column="0" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/UserListController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="5" selection-start="787" selection-end="787" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+        <state line="24" column="43" selection-start="727" selection-end="727" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="986" selection-end="986" vertical-scroll-proportion="-14.28" vertical-offset="0" max-vertical-offset="493">
+        <state line="21" column="0" selection-start="986" selection-end="986" vertical-scroll-proportion="0.65867156" vertical-offset="0" max-vertical-offset="542">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/RegisterController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="139" selection-end="139" vertical-scroll-proportion="0.06014151" vertical-offset="0" max-vertical-offset="848">
+        <state line="36" column="42" selection-start="1189" selection-end="1190" vertical-scroll-proportion="0.0" vertical-offset="104" max-vertical-offset="646">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/defs/general.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/security.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="51" selection-start="772" selection-end="772" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
+        <state line="18" column="0" selection-start="859" selection-end="859" vertical-scroll-proportion="-11.6" vertical-offset="16" max-vertical-offset="629">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/service/InitDbService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="34" selection-start="1079" selection-end="1079" vertical-scroll-proportion="1.5653409" vertical-offset="112" max-vertical-offset="986">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1242#1248#0" expanded="true" />
-          </folding>
+        <state line="48" column="9" selection-start="1370" selection-end="1370" vertical-scroll-proportion="0.0" vertical-offset="418" max-vertical-offset="986">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="22" selection-start="684" selection-end="684" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/theme/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="10529" selection-start="10749" selection-end="10749" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/users.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="374" selection-end="374" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/defs/general.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="52" selection-start="574" selection-end="574" vertical-scroll-proportion="-0.22324723" vertical-offset="342" max-vertical-offset="884">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="9" selection-start="266" selection-end="266" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="33" selection-start="641" selection-end="641" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/start.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="127" selection-start="2817" selection-end="2817" vertical-scroll-proportion="-14.307693" vertical-offset="614" max-vertical-offset="1156">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/base.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="42" selection-start="1376" selection-end="1376" vertical-scroll-proportion="-16.846153" vertical-offset="72" max-vertical-offset="1394">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/registration.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="77" selection-start="494" selection-end="507" vertical-scroll-proportion="0.29651162" vertical-offset="0" max-vertical-offset="516">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/theme/css/submit.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="34" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0" vertical-offset="257" max-vertical-offset="799">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/theme/css/sidebar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="33" selection-start="925" selection-end="925" vertical-scroll-proportion="0.0" vertical-offset="665" max-vertical-offset="1411">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="38" selection-start="486" selection-end="486" vertical-scroll-proportion="0.31782946" vertical-offset="142" max-vertical-offset="850">
+          <folding />
         </state>
       </provider>
     </entry>
