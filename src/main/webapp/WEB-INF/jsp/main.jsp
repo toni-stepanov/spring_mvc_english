@@ -1,44 +1,20 @@
-<div id="wrapper">
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+         pageEncoding="UTF-8"%>
+<%@ include file="../layout/taglib.jsp" %>
 
-    <!-- Sidebar -->
-    <div id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <li class="sidebar-brand">
-                <a href="#">Next ></a>
-            </li>
-            <li>
-                <a href="#">Dashboard</a>
-            </li>
-            <li>
-                <a href="#">Shortcuts</a>
-            </li>
-            <li>
-                <a href="#">Overview</a>
-            </li>
-            <li>
-                <a href="#">Events</a>
-            </li>
-            <li>
-                <a href="#">About</a>
-            </li>
-        </ul>
-    </div>
-    <!-- /#sidebar-wrapper -->
+<%--<c:url var="firstUrl" value="/pages/1" />--%>
+<%--<c:url var="lastUrl" value="/pages/${deploymentLog.totalPages}" />--%>
+<%--<c:url var="prevUrl" value="/pages/${currentIndex - 1}" />--%>
+<%--<c:url var="nextUrl" value="/pages/${currentIndex + 1}" />--%>
 
-    <!-- Page Content -->
-    <div id="page-content-wrapper">
-        Dashboard
-        <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Theme Menu</a>
-    </div>
-    <!-- /#page-content-wrapper -->
-
+<div class="list-group custom-themes">
+    <%--<a href="#" class="list-group-item">Theme 1</a>--%>
+    <c:forEach items="${themes}" var="theme" >
+        <a href="/thems/${theme.title}" class="list-group-item">${theme.title}</a>
+    </c:forEach>
+        <c:forEach items="${words}" var="word">
+            <a href="#1" class="list-group-item">${word.title}</a>
+        </c:forEach>
 </div>
-<!-- /#wrapper -->
 
-<!-- Menu Toggle Script -->
-<script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
-</script>
+
