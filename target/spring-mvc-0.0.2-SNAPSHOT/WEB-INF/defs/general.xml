@@ -28,13 +28,19 @@
         <put-attribute name="body" value="/WEB-INF/jsp/users.jsp"/>
     </definition>
 
-    <definition name="main"  extends="base">
+    <definition name="themes"  extends="base">
         <put-attribute name="title" value="main" />
-        <put-attribute name="current_page" value="main"/>
-        <put-attribute name="body" value="/WEB-INF/jsp/main.jsp"/>
+        <put-attribute name="current_page" value="themes"/>
+        <put-attribute name="body" value="/WEB-INF/jsp/themes.jsp"/>
     </definition>
 
-    <!--<definition name="main" template="/WEB-INF/jsp/main.jsp">-->
+    <definition name="chosen_theme"  extends="base">
+        <put-attribute name="title" value="main" />
+        <put-attribute name="current_page" value="themes"/>
+        <put-attribute name="body" value="/WEB-INF/jsp/chosen_theme.jsp"/>
+    </definition>
+
+    <!--<definition name="main" template="/WEB-INF/jsp/themes.jsp">-->
         <!--<put-attribute name="title" value="Vocabulary" />-->
         <!--<put-attribute name="current_page" value="start"/>-->
     <!--</definition>-->

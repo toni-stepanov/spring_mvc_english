@@ -15,6 +15,8 @@ public class Word {
 
 	private String title;
 
+    private String description;
+
     @ManyToMany(mappedBy = "words")
 	private List<Theme> themes;
 
@@ -40,5 +42,13 @@ public class Word {
 
     public void setThemes(List<Theme> themes) {
         this.themes = themes;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 }

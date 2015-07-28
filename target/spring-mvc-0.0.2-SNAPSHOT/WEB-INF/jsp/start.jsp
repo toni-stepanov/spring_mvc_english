@@ -56,7 +56,7 @@
     </security:authorize>
     <security:authorize access="isAuthenticated()">
         <form action="main">
-            <p><a class="btn btn-lg btn-primary" style="width:160px; color:#ffffff; background:black" type="submit" href="main">Start</a></p>
+            <p><a class="btn btn-lg btn-primary" style="width:160px; color:#ffffff; background:black" type="submit" href="themes">Start</a></p>
         </form>
     </security:authorize>
 </div>

@@ -66,6 +66,7 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-oxm:4.0.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.0.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc-portlet:4.0.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.mockito:mockito-all:1.9.5" />
         </element>
       </element>
     </root>

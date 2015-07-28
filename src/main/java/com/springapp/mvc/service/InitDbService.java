@@ -60,8 +60,10 @@ public class InitDbService {
             faceTheme.setTitle("face");
             Word beard = new Word();
             beard.setTitle("beard");
+            beard.setDescription("beard desc");
             Word teeth = new Word();
             teeth.setTitle("teeth");
+            teeth.setDescription("teeth desc");
             List<Word> faceList = new ArrayList<Word>();
             faceList.add(beard);
             faceList.add(teeth);
@@ -75,8 +77,10 @@ public class InitDbService {
             faceTheme2.setTitle("face2");
             Word beard2 = new Word();
             beard2.setTitle("beard2");
+            beard2.setDescription("beard desv");
             Word teeth2 = new Word();
             teeth2.setTitle("teeth2");
+            teeth2.setDescription("descs");
             List<Word> faceList2 = new ArrayList<Word>();
             faceList2.add(beard2);
             faceList2.add(teeth2);

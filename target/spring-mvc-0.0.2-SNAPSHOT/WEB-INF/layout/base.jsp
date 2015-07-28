@@ -17,6 +17,7 @@
     <spring:url value="/resources/css/themes.css" var="themes" />
     <spring:url value="/resources/js/bootstrap.min.js" var="bootstrap_js" />
     <spring:url value="/resources/css/submit.css" var="submit" />
+    <spring:url value="/resources/css/arrows.css" var="arrows" />
     <spring:url value="/resources/slider/1.jpg" var="slider1" />
     <spring:url value="/resources/slider/2.jpg" var="slider2" />
     <spring:url value="/resources/slider/3.jpg" var="slider3" />
@@ -24,6 +25,7 @@
     <link href="${bootstrap}" rel="stylesheet" media="screen">
     <link href="${submit}" rel="stylesheet" media="screen">
     <link href="${themes}" rel="stylesheet" media="screen">
+    <link href="${arrows}" rel="stylesheet" media="screen">
 
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="${bootstrap_js}"></script>
