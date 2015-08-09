@@ -7,7 +7,7 @@ import javax.persistence.ManyToMany;
 import java.util.List;
 
 @Entity
-public class Word {
+public class Lesson {
 
 	@Id
 	@GeneratedValue
@@ -17,7 +17,7 @@ public class Word {
 
     private String description;
 
-    @ManyToMany(mappedBy = "words")
+    @ManyToMany(mappedBy = "lessons")
 	private List<Theme> themes;
 
     public Integer getId() {

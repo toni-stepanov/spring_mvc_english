@@ -13,24 +13,29 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <spring:url value="/resources/css/bootstrap.min.css" var="bootstrap" />
-    <spring:url value="/resources/css/themes.css" var="themes" />
-    <spring:url value="/resources/js/bootstrap.min.js" var="bootstrap_js" />
-    <spring:url value="/resources/css/submit.css" var="submit" />
-    <spring:url value="/resources/css/arrows.css" var="arrows" />
-    <spring:url value="/resources/slider/1.jpg" var="slider1" />
-    <spring:url value="/resources/slider/2.jpg" var="slider2" />
-    <spring:url value="/resources/slider/3.jpg" var="slider3" />
+    <spring:url value="/resources/css-res/bootstrap.min.css" var="bootstrap" />
+    <spring:url value="/resources/css-res/bootstrap-theme.min.css" var="bootstrap_theme" />
+    <spring:url value="/resources/css-res/themes.css" var="themes" />
+    <spring:url value="/resources/css-res/submit.css" var="submit" />
+    <spring:url value="/resources/css-res/arrows.css" var="arrows" />
+
+    <spring:url value="/resources/js-res/bootstrap.js" var="bootstrap_js" />
+    <spring:url value="/resources/js-res/jquery-validate.js" var="validate"/>
+    <spring:url value="/resources/js-res/jquery.js" var="jquery"/>
 
     <link href="${bootstrap}" rel="stylesheet" media="screen">
+    <link href="${bootstrap_theme}" rel="stylesheet" media="screen">
     <link href="${submit}" rel="stylesheet" media="screen">
     <link href="${themes}" rel="stylesheet" media="screen">
     <link href="${arrows}" rel="stylesheet" media="screen">
 
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="${jquery}"></script>
     <script src="${bootstrap_js}"></script>
+    <script src="${validate}"></script>
+
 
     <title><tiles:getAsString name="title" /></title>
+
 </head>
 <body>
 <tilesx:useAttribute name="current_page"/>

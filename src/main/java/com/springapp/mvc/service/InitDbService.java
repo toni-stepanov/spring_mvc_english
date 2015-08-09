@@ -1,13 +1,13 @@
 package com.springapp.mvc.service;
 
+import com.springapp.mvc.entity.Lesson;
 import com.springapp.mvc.entity.Role;
 import com.springapp.mvc.entity.Theme;
 import com.springapp.mvc.entity.User;
-import com.springapp.mvc.entity.Word;
+import com.springapp.mvc.repository.LessonRepository;
 import com.springapp.mvc.repository.RoleRepository;
 import com.springapp.mvc.repository.ThemeRepository;
 import com.springapp.mvc.repository.UserRepository;
-import com.springapp.mvc.repository.WordRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
@@ -31,7 +31,7 @@ public class InitDbService {
     private ThemeRepository themeRepository;
 
     @Autowired
-    private WordRepository wordRepository;
+    private LessonRepository lessonRepository;
 
 
 	@PostConstruct
@@ -47,7 +47,7 @@ public class InitDbService {
 
 			User userAdmin = new User();
 			userAdmin.setEnabled(true);
-			userAdmin.setMail("admin@admin.ru");
+			userAdmin.setEmail("admin@admin.ru");
 			BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
 			userAdmin.setPassword(encoder.encode("pwd"));
 			List<Role> roles = new ArrayList<Role>();
@@ -56,38 +56,54 @@ public class InitDbService {
 			userAdmin.setRoles(roles);
 			userRepository.save(userAdmin);
 
-            Theme faceTheme = new Theme();
-            faceTheme.setTitle("face");
-            Word beard = new Word();
+            Theme vocabTheme = new Theme();
+            vocabTheme.setTitle("Vocabulary");
+            Lesson beard = new Lesson();
             beard.setTitle("beard");
             beard.setDescription("beard desc");
-            Word teeth = new Word();
+            Lesson teeth = new Lesson();
             teeth.setTitle("teeth");
             teeth.setDescription("teeth desc");
-            List<Word> faceList = new ArrayList<Word>();
+            List<Lesson> faceList = new ArrayList<Lesson>();
             faceList.add(beard);
             faceList.add(teeth);
-            faceTheme.setWords(faceList);
-            wordRepository.save(teeth);
-            wordRepository.save(beard);
-            themeRepository.save(faceTheme);
+            vocabTheme.setLessons(faceList);
+            lessonRepository.save(teeth);
+            lessonRepository.save(beard);
+            themeRepository.save(vocabTheme);
 
 
-            Theme faceTheme2 = new Theme();
-            faceTheme2.setTitle("face2");
-            Word beard2 = new Word();
+            Theme gramarTheme = new Theme();
+            gramarTheme.setTitle("Gramatic");
+            Lesson beard2 = new Lesson();
             beard2.setTitle("beard2");
             beard2.setDescription("beard desv");
-            Word teeth2 = new Word();
+            Lesson teeth2 = new Lesson();
             teeth2.setTitle("teeth2");
             teeth2.setDescription("descs");
-            List<Word> faceList2 = new ArrayList<Word>();
+            List<Lesson> faceList2 = new ArrayList<Lesson>();
             faceList2.add(beard2);
             faceList2.add(teeth2);
-            faceTheme2.setWords(faceList2);
-            wordRepository.save(teeth2);
-            wordRepository.save(beard2);
-            themeRepository.save(faceTheme2);
+            gramarTheme.setLessons(faceList2);
+            lessonRepository.save(teeth2);
+            lessonRepository.save(beard2);
+            themeRepository.save(gramarTheme);
+
+            Theme slangTheme = new Theme();
+            gramarTheme.setTitle("Slang");
+            Lesson beard3 = new Lesson();
+            beard3.setTitle("beard3");
+            beard3.setDescription("beard desv3");
+            Lesson teeth3 = new Lesson();
+            teeth3.setTitle("teeth3");
+            teeth3.setDescription("descs3");
+            List<Lesson> faceList3 = new ArrayList<Lesson>();
+            faceList3.add(beard3);
+            faceList3.add(teeth3);
+            gramarTheme.setLessons(faceList3);
+            lessonRepository.save(teeth3);
+            lessonRepository.save(beard3);
+            themeRepository.save(slangTheme);
 
 		}
 

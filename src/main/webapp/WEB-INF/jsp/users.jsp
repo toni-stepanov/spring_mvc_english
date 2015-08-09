@@ -6,7 +6,7 @@
 <c:forEach items="${users}" var="user">
     <tr>
         <td>
-                <c:out value="${user.mail}" />
+                <c:out value="${user.email}" />
         </td>
         <td>
             <a>

@@ -1,8 +1,8 @@
 package com.springapp.mvc.controller;
 
 
+import com.springapp.mvc.entity.Lesson;
 import com.springapp.mvc.entity.Theme;
-import com.springapp.mvc.entity.Word;
 import com.springapp.mvc.service.ThemeService;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -34,8 +34,8 @@ public class ThemeController {
         logger.info("choose theme = " + theme);
         Theme currentTheme = themeService.findByTitle(theme);
         model.addAttribute("theme", currentTheme);
-        Word currentWord = currentTheme.getWords().iterator().next();
-        model.addAttribute("word", currentWord);
+        Lesson currentLesson = currentTheme.getLessons().iterator().next();
+        model.addAttribute("lesson", currentLesson);
         List<Theme> themes = themeService.findAll();
         model.addAttribute("themes", themes);
         model.addAttribute("currentIndex", 1);
@@ -48,12 +48,12 @@ public class ThemeController {
         logger.info("getNextPrevWord index = " + currentIndex);
         Theme currentTheme = themeService.findByTitle(theme);
         model.addAttribute("theme", currentTheme);
-        List<Word> words = currentTheme.getWords();
-        Word currentWord = null;
-        if(!words.isEmpty() && words.size() >= currentIndex){
-            currentWord = words.get(currentIndex - 1);
+        List<Lesson> lessons = currentTheme.getLessons();
+        Lesson currentLesson = null;
+        if(!lessons.isEmpty() && lessons.size() >= currentIndex){
+            currentLesson = lessons.get(currentIndex - 1);
         }
-        model.addAttribute("word", currentWord);
+        model.addAttribute("lesson", currentLesson);
         List<Theme> themes = themeService.findAll();
         model.addAttribute("themes", themes);
         model.addAttribute("currentIndex", currentIndex);

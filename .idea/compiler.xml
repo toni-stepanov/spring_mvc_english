@@ -23,8 +23,12 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="spring-mvc" />
+        <module name="spring_mvc_tiles" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-mvc" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
 

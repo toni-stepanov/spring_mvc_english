@@ -1,13 +1,7 @@
 package com.springapp.mvc.service;
 
 import com.springapp.mvc.entity.Theme;
-import com.springapp.mvc.entity.User;
-import com.springapp.mvc.entity.Word;
-import com.springapp.mvc.repository.RoleRepository;
 import com.springapp.mvc.repository.ThemeRepository;
-import com.springapp.mvc.repository.UserRepository;
-import com.springapp.mvc.repository.WordRepository;
-import org.hibernate.Hibernate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;

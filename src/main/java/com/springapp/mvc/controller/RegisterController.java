@@ -1,42 +1,50 @@
 package com.springapp.mvc.controller;
 
+import javax.validation.Valid;
+
 import com.springapp.mvc.entity.User;
 import com.springapp.mvc.service.UserService;
-import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 
-import javax.validation.Valid;
 
 @Controller
+@RequestMapping("/registration")
 public class RegisterController {
 
-    private static Logger logger = Logger.getLogger(RegisterController.class);
-
     @Autowired
-    UserService userService;
+    private UserService userService;
 
     @ModelAttribute("user")
-    public User create(){
-        logger.info("create user");
+    public User constructUser() {
+        System.out.println("user");
         return new User();
     }
 
-    @RequestMapping(value = "registration", method = RequestMethod.POST)
-    public String doRegister(@Valid @ModelAttribute("user") User user, Model model) {
+    @RequestMapping
+    public String showRegister() {
+        return "registration";
+    }
+
+    @RequestMapping(method = RequestMethod.POST)
+    public String doRegister(@Valid @ModelAttribute("user") User user, BindingResult result) {
+        System.out.println("!!!!");
         userService.save(user);
-        model.addAttribute("user", user);
-        logger.info("do register mail = " + user.getMail());
         return "login";
     }
 
-    @RequestMapping(value = "registration")
-    public String registration(){
-        return "registration";
+    @RequestMapping("/available")
+    @ResponseBody
+    public String available(@RequestParam String email) {
+        System.out.println("available");
+        Boolean available = (userService.findByEmail(email) == null);
+        return available.toString();
     }
 
 }

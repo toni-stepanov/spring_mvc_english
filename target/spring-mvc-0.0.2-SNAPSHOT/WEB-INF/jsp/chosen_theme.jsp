@@ -8,12 +8,14 @@
     </c:forEach>
 </div>
 <br/><br/>
-<c:out value="${word.description}"/>
-<c:out value="${word.title}"/>
+<c:out value="${lesson.description}"/>
+<c:out value="${lesson.title}"/>
+<br/><br/><br/><br/>
+<%--<iframe src="http://www.youtube.com/embed/pBYpNRz1FM4"--%>
+        <%--width="560" height="315" frameborder="0" allowfullscreen></iframe>--%>
 <nav>
     <ul class="pager">
-        <li><a class="${currentIndex < 2 ? 'not-active-arrow' : 'active-arrow'}" href="/thems/${theme.title}/${currentIndex - 1}">Previous word</a></li>
-        <li><a class="${theme.words.size() <= currentIndex ? 'not-active-arrow' : 'active-arrow'}" href="/thems/${theme.title}/${currentIndex + 1}">Next word</a></li>
+        <li><a class="${currentIndex < 2 ? 'not-active-arrow' : 'active-arrow'}" href="/thems/${theme.title}/${currentIndex - 1}">Previous lesson</a></li>
+        <li><a class="${theme.lessons.size() <= currentIndex ? 'not-active-arrow' : 'active-arrow'}" href="/thems/${theme.title}/${currentIndex + 1}">Next lesson</a></li>
     </ul>
 </nav>
-<%--not-active-arrow--%>

@@ -14,7 +14,7 @@ public class Theme {
 
     @ManyToMany
     @JoinTable
-	private List<Word> words;
+	private List<Lesson> lessons;
 
     public Integer getId() {
         return id;
@@ -32,11 +32,11 @@ public class Theme {
         this.title = title;
     }
 
-    public List<Word> getWords() {
-        return words;
+    public List<Lesson> getLessons() {
+        return lessons;
     }
 
-    public void setWords(List<Word> words) {
-        this.words = words;
+    public void setLessons(List<Lesson> lessons) {
+        this.lessons = lessons;
     }
 }

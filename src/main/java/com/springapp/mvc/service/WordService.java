@@ -1,24 +1,20 @@
 package com.springapp.mvc.service;
 
-import com.springapp.mvc.entity.Theme;
-import com.springapp.mvc.entity.Word;
-import com.springapp.mvc.repository.ThemeRepository;
-import com.springapp.mvc.repository.WordRepository;
+import com.springapp.mvc.repository.LessonRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
-import java.util.List;
 
 @Service
 @Transactional
 public class WordService {
 
     @Autowired
-    private WordRepository wordRepository;
+    private LessonRepository lessonRepository;
 
-//    public List<Word> findByTitle(String face) {
-//        List<Word> words = wordRepository.findByTheme();
+//    public List<Lesson> findByTitle(String face) {
+//        List<Lesson> words = lessonRepository.findByTheme();
 //        return words;
 //    }
 
