@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" build-on-make="true" name="spring_mvc_tiles:war">
-    <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="spring-mvc-0.0.2-SNAPSHOT.war">
-      <element id="artifact" artifact-name="spring_mvc_tiles:war exploded" />
-    </root>
-  </artifact>
-</component>
