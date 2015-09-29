@@ -14,3 +14,28 @@
     </form>
 
 </div>
+<form>
+    <input class="button22" type="button" value="ajax get List">
+    <br/>
+    <div class="result"/>
+</form>
+<script>
+    $(document).ready(function(){
+        $('.button22').click(function() {
+            $.ajax({
+                type : 'GET',
+                headers: {
+                    Accept : "application/json; charset=utf-8",
+                    "Content-Type": "application/json; charset=utf-8"
+                },
+                url : '/login/result/listjson',
+                success : function(data) {
+                    var result = "";
+                    for(var i=0; i<data.length;i++)
+                        result += "<br>" + data[i].id + ' - ' + data[i].name;
+                    $('.result').html(result);
+                }
+            });
+        });
+    });
+</script>
